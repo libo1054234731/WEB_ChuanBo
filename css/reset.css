@@ -1,0 +1,32 @@
+/*初始化页面*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	
+}
+a:hover {
+	text-decoration: none;
+	
+}
+ul,ol,li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+body{
+	font-size: 12px;
+	color: #333;
+	font-family: 宋体, 微软雅黑;
+}
+input{
+	cursor: hand;
+}
+i {
+	font-style: normal;
+}

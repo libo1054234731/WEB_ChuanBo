@@ -1,0 +1,265 @@
+/*内容设置css*/
+
+body {
+	background: url(../images/bg.png) no-repeat center top;
+}
+
+
+/*header开始*/
+
+header {
+	width: 1000px;
+	height: 105px;
+	margin: 0 auto;
+	/*background: green;*/
+}
+
+header img {
+	float: left;
+}
+
+#header-1 {
+	float: right;
+	margin-top: 20px;
+}
+
+#header-1 a {
+	color: #fff;
+	padding-right: 10px;
+}
+
+#header-1 a:hover {
+	color: #fff;
+}
+
+#header-1 span {
+	color: #fff;
+	padding-right: 10px;
+}
+
+
+/*mian主内容区*/
+
+#main {
+	background: #fff;
+	width: 1000px;
+	height: auto;
+	/*需要修改*/
+	margin: 0 auto;
+}
+
+
+/*标题开始*/
+
+#biaoti {
+	width: 965px;
+	margin: 0 auto;
+	padding: 15px 0 0;
+}
+
+#biaoti a {
+	line-height: 40px;
+	color: #0880DC;
+}
+
+#biaoti a:hover {
+	color: #ff6600;
+}
+
+#biaoti-1 {
+	width: 965px;
+	height: 55px;
+	background: #F7F7F7;
+	border-top: 2px solid #2A98DA;
+	margin: 0 auto;
+}
+
+#biaoti-1 ul li {
+	margin-left: 75px;
+	height: 53px;
+	line-height: 53px;
+	font-size: 18px;
+	float: left;
+}
+
+#biaoti-1 ul li span {
+	color: #ff6600;
+}
+/*票价开始*/
+#piaojia {
+	width: 965px;
+	margin: 0 auto;
+	padding: 27px 0 0;
+	font-size: 14px;
+}
+
+#piaojia .piaojia-1 {
+	width: 911px;
+	height: 60px;
+	border: 1px solid #ACE0FF;
+	margin: 10px auto 0;
+	padding: 27px;
+	font-size: 12px;
+}
+#piaojia .piaojia-1 ul{
+	margin: 20px auto 0;
+	display: flex;
+}
+#piaojia .piaojia-1 ul li{
+	flex: 1;
+	float: left;
+	
+}
+
+#piaojia .piaojia-1 ul li span {
+	color: #ff6600;
+}
+/*乘船人信息开始*/
+#chengchuanren {
+	width: 965px;
+	margin: 0 auto;
+	padding: 27px 0 0;
+	font-size: 14px;
+}
+
+#chengchuanren .chengchuanren-1 {
+	width: 935px;
+	height: auto;
+	border: 1px solid #ACE0FF;
+	margin: 10px auto 0;
+	padding: 15px;
+	font-size: 12px;
+}
+#chengchuanren .chengchuanren-1 .ccr-1 {
+	height: 50px;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    padding-left: 15px;
+}
+#chengchuanren .chengchuanren-1  ul {
+	height: 40px;
+	border-bottom: 1px solid #dddddd;
+}
+
+#chengchuanren .chengchuanren-1 input{
+	
+	border: 2px inset;
+}
+#chengchuanren .chengchuanren-1 select{
+	
+	border: 1px inset;
+}
+
+#chengchuanren .chengchuanren-1 ul li {	
+	height: 40px;	
+	line-height: 40px;	
+	margin-right: 10px;	
+	float: left;
+}
+
+#chengchuanren .chengchuanren-1 ul li select {
+	width: 110px;
+}
+
+#chengchuanren .chengchuanren-1 .ccr-3 {
+	height: 50px;
+}
+
+#chengchuanren .chengchuanren-1 .ccr-3 img{
+	margin-top: 10px;
+}
+
+/*更多收起*/
+#ccrxy{
+	float: left;
+}
+#ccrxy label{
+	margin-left: 10px;
+	
+}
+
+#ccryy{
+	margin-left: 10px;
+	float: left;
+	display: none;
+}
+#shouqi{
+	display:none;
+}
+
+/*取票人开始?*/
+#qupiaoren {
+	width: 965px;
+	margin: 0 auto;
+	padding: 27px 0 0;
+	font-size: 14px;
+}
+#qupiaoren .qpr{
+	margin: 10px auto 0;
+    border: 1px solid #ACE0FF;
+    overflow: hidden;
+    padding: 15px;
+	
+}
+#qupiaoren .qpr .qpr-1{
+	height: 50px;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    padding-left: 15px;
+    font-size: 12px;
+}
+#qupiaoren .qpr .qpr-1 b{
+	margin-right: 20px;
+}
+
+#qupiaoren .qpr ul li{
+	font-size: 12px;
+	width: 25%;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+/*提交按钮*/
+#submit {
+	width: 965px;
+    height: 70px;
+    margin: 30px auto 5px;
+    border: 1px solid #FED7A7;
+    background: #FFF8EE;
+    overflow: hidden;
+}
+#submit .c-1 {
+	float: right;
+	width: 390px;
+	height: 70px;
+}
+
+#submit .c-1 p{
+	line-height: 70px;
+	float: left;
+}
+#submit .c-1 p .c-1-1{
+	color: #ff6600;
+}
+#submit .c-1 p .c-1-2{
+	color: #ff6600;
+	font-size: 18px;
+}
+#submit .c-1 img {
+	float: left;
+	margin-top: 16px;
+	margin-left: 32px;
+	cursor: hand;
+}
+/*footer开始*/
+footer{
+	margin: 20px auto 0;
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+}
+footer p{
+	margin: 5px auto 0;
+}
